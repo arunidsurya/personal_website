@@ -10954,6 +10954,10 @@ body:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
+  .worktotal{
+    background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
+  }
+
   .worksample{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -10963,12 +10967,12 @@ body:after {
   .worksample h3{
     text-align: center;
     margin-bottom: 20px;
-    color: #c82333;
+    color: #f4f4f4;
     font-weight: 900;
   }
 
   .worksample .sample1 ,.sample2, .sample3{
-    border: 2px solid #04303c;
+    border: 2px solid #f4f4f4;
     border-radius: 5px;
     align-items: center;
     padding: 40px;
